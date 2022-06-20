@@ -22,7 +22,9 @@ h3 {
   font-size: 40px;
   display: block;
 }
-
+.content-wrapper {
+  padding: 50px;
+}
 .content-wrapper,
 img {
   display: block;
