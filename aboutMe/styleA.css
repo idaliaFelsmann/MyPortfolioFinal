@@ -1,0 +1,36 @@
+:root {
+  --main-color: #f88f8f;
+  --complementary-color: #f7f3ff;
+  --light-color: bisque;
+  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 40px;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--light-color);
+}

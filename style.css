@@ -1,0 +1,95 @@
+:root {
+  --main-color: #f88f8f;
+  --complementary-color: #f7f3ff;
+  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+h2 {
+  font-size: 85px;
+}
+
+h5 {
+  margin-top: 30px;
+}
+
+span {
+  color: var(--main-color);
+}
+
+.reach-out-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.reach-out-links a {
+  margin: 20px;
+}
+
+.contact-link {
+  border-radius: 8px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  border-radius: 8px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+.access-weapp-link {
+  border-radius: 8px;
+  padding: 16px 13px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.access-weapp-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 60px;
+  }
+
+  img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 767px) {
+  .temporal {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .first-temporal {
+    display: none;
+  }
+}
