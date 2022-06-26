@@ -1,6 +1,6 @@
 :root {
   --main-color: #f88f8f;
-  --complementary-color: #f7f3ff;
+  --complementary-color: #fff7f7;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
@@ -92,4 +92,56 @@ span {
   .first-temporal {
     display: none;
   }
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--complementary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--main-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--main-color);
+  background: var(--complementary-color);
+}
+
+#last-botton {
+  border-radius: 8px;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+#last-botton:hover {
+  color: white;
+  border-color: white;
 }
